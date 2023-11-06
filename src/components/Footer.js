@@ -1,10 +1,11 @@
 export default function Footer(){
     return(
-        <Footer>
+        <footer>
                 <small>
-                    Copyright © {new Date().getFullYear()}| All Rights Reserved
+                    <hr />
+                Copyright © {new Date().getFullYear()} | Micado Pierre | All Rights Reserved | 
                 </small>
-        </Footer>
+        </footer>
     
     )
 }
